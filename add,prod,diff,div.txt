@@ -1,0 +1,27 @@
+1)#!/bin/bash
+n1=5
+read n1
+n2=2
+read n2
+sum=$(( $n1 + $n2 ))
+sub=$(( $n1 - $n2 ))
+prod=$(( n1 * $n2 ))
+div=$(( $n1 / $n2 ))
+echo "$sum"
+echo "$sub"
+echo "$prod"
+echo "$div"
+
+2)#!/bin/bash
+X=5
+Y=2
+read X
+read Y
+sum=`expr $X + $Y`
+sub=`expr $X - $Y`
+prod=`expr $X \* $Y`
+div=`expr $X / $Y`
+echo "$sum"
+echo "$sub"
+echo "$prod"
+echo "$div"
