@@ -1,0 +1,13 @@
+#!/bin/bash
+#echo "Enter the character"
+read -n 1 char
+
+if [[ $char == y || $char == Y ]]
+then
+echo "YES"
+elif [[ $char == n || $char == N ]]
+then
+echo "NO"
+else
+echo "Enter the valid input"
+fi
