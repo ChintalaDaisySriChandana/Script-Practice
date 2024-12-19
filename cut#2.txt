@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Hello" | cut -c2
+echo "World" | cut -c2
+echo "How are you" | cut -c2,7

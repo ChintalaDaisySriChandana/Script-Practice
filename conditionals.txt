@@ -1,0 +1,16 @@
+#!/bin/bash
+X=6
+Y=4
+Z=6
+read X
+read Y
+read Z
+if [ "$X" -eq "$Y" ] && [ "$Y" -eq "$Z" ]
+then
+echo "EQUILATERAL"
+elif [ "$X" -eq "$Y" ] && [ "$X" -ne "$Z" ] && [ "$Y" -ne "$Z" ]
+then
+echo "ISOSCOLES"
+else
+echo "SCALENE"
+fi
